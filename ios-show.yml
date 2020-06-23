@@ -22,7 +22,7 @@
       #authorize: yes
       #commands:
       # "CLI" is the variable for any show command on the $prompt, using -e "cli='show command'"
-        - "{{ cli }}"
+      # - "{{ cli }}"
 
       
     register: output
