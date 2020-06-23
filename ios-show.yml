@@ -18,11 +18,11 @@
 
   - name: Run 'show output'
     ios_command: 
-      #provider: "{{ provider }}"
-      #authorize: yes
-      #commands:
-      # "CLI" is the variable for any show command on the $prompt, using -e "cli='show command'"
-      # - "{{ cli }}"
+      provider: "{{ provider }}"
+      authorize: yes
+      commands:
+       "CLI" is the variable for any show command on the $prompt, using -e "cli='show command'"
+       - "{{ cli }}"
 
       
     register: output
