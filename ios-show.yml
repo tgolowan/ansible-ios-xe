@@ -1,7 +1,7 @@
 ---
 
 - name: Show Commands Playbook
-  hosts: csr
+  hosts: all
   gather_facts: no
   #connection: local
 
