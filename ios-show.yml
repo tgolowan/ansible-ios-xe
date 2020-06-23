@@ -16,14 +16,14 @@
         username: "{{ access['username'] }}"
         password: "{{ access['password'] }}"
 
-  - name: Name
-    ios_command: 
-      commands: show version
-      provider: "{{ provider }}"
-      authorize: yes
-      commands:
-       #"CLI" is the variable for any show command on the $prompt, using -e "cli='show command'"
-      - "{{ cli }}"
+    - name: Name
+      ios_command: 
+        commands: show version
+        provider: "{{ provider }}"
+        authorize: yes
+        commands:
+         #"CLI" is the variable for any show command on the $prompt, using -e "cli='show command'"
+        - "{{ cli }}"
 
       
     register: output
