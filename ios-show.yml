@@ -16,8 +16,9 @@
         username: "{{ access['username'] }}"
         password: "{{ access['password'] }}"
 
-  - name: Run 'show running-config'
+  - name: run show version on remote devices
     ios_command: 
+      commands: show version
       provider: "{{ provider }}"
       authorize: yes
       commands:
