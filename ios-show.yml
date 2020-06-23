@@ -20,7 +20,7 @@
     ios_command: show running-config
       #provider: "{{ provider }}"
       #authorize: yes
-      commands:
+      #commands:
       # "CLI" is the variable for any show command on the $prompt, using -e "cli='show command'"
         - "{{ cli }}"
 
