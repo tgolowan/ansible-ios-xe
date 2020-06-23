@@ -16,7 +16,7 @@
         username: "{{ access['username'] }}"
         password: "{{ access['password'] }}"
 
-  - name: run show version on remote devices
+  - name: Version
     ios_command: 
       commands: show version
       provider: "{{ provider }}"
