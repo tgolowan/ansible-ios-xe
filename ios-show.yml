@@ -7,7 +7,7 @@
 
   tasks:
   - name: Get Login credentials
-    include_vars: /mnt/hgfs/vm_shared/ansible/access.yml
+    include_vars: /var/lib/awx/projects/_14__simple/template/access.yml
 
   - name: Define Provider
     set_fact:
