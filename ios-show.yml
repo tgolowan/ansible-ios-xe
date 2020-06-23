@@ -3,7 +3,7 @@
 - name: Show Commands Playbook
   hosts: csr
   gather_facts: no
-  connection: local
+  #connection: local
 
   tasks:
   - name: Get Login credentials
