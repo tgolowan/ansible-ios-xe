@@ -13,7 +13,7 @@ access:
   # device_ip: 192.168.50.105
   # device_ip: 172.16.1.73
   device_ip: "{{ inventory_hostname }}"
-  username: cisco
-  password: cisco
+  username: root
+  password: DAfg123$
 
 ...
