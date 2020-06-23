@@ -21,9 +21,9 @@
       commands: show version
       provider: "{{ provider }}"
       authorize: yes
-      commands:
+      #commands:
          #"CLI" is the variable for any show command on the $prompt, using -e "cli='show command'"
-      - "{{ cli }}"
+      #- "{{ cli }}"
 
       
     register: output
