@@ -17,7 +17,7 @@
         password: "{{ access['password'] }}"
 
   - name: Run 'show output'
-    ios_command:
+    ios_command: show running-config
       provider: "{{ provider }}"
       authorize: yes
       commands:
