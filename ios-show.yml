@@ -6,9 +6,9 @@
   gather_facts: False
   connection: local
 
-  tasks:
-  - name: Get Login credentials
-    include_vars: /var/lib/awx/projects/_14__simple/template/access.yml
+  #tasks:
+  #- name: Get Login credentials
+    #include_vars: /var/lib/awx/projects/_14__simple/template/access.yml
 
   - name: Define Provider
     set_fact:
